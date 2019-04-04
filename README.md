@@ -80,4 +80,4 @@ clf.fit(train[features], y)
 preds = iris.target_names[clf.predict(test[features])]
 print(pd.crosstab(test['species'], preds, rownames=['actual'], colnames=['preds']))
 ```
-
+![figure5](5.png)
